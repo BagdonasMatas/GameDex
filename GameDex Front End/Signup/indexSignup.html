@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styleSignup.css">
+    <script src="jsSignup.js" defer></script>
+</head>
+<body>
+    <form id="myRegForm" action="../GameDex Main/indexMain.html" method="post">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" min="6" max="20" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" min="6" max="15" required>
+        <label for="repeatPassword">Repeat password</label>
+        <input type="password" id="repeatPassword" name="repeatPassword" min="6" max="15" required>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
